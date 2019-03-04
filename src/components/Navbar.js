@@ -24,10 +24,6 @@ const Navbar = class extends React.Component {
             <Icon.Phone size={26}/>
             <div>Contact</div>
           </Link>
-          <a className="btn pt-2" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
-            <Icon.DollarSign size={26}/>
-            <div>Bill Pay</div>
-          </a>
         </div>
       </div>
       <div className="container grid-xs hide-xs">
@@ -49,9 +45,6 @@ const Navbar = class extends React.Component {
             <Link className="btn btn-link" activeClassName="active" to="/contact">
               Contact
             </Link>
-            <a className="btn btn-link" rel="noopener noreferrer" href="https://portal.utilitydistrict.com/5670" target="_blank">
-              Bill Pay&nbsp;<Icon.ExternalLink size={16}/>
-            </a>
           </section>
         </header>
       </div>
