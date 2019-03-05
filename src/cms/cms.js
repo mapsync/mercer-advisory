@@ -38,7 +38,7 @@ var NotificationControl = class Control extends React.Component {
       disabled: true
     });
     var link = document.getElementById("link-field-" + (id - 1)).value;
-    if (link.startsWith("https://mercersd.geosync.cloud")) {
+    if (link.startsWith("https://mercersanitation.geosync.cloud")) {
       var url = new URL(link);
       link = "https://gracious-ritchie-e250c9.netlify.com" + url.pathname + url.search
     }
@@ -47,7 +47,7 @@ var NotificationControl = class Control extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": "notification",
-        "account": "mercersd",
+        "account": "mercersanitation",
         "title": document.getElementById("title-field-" + (id - 5)).value,
         "priority": document.getElementById("priority-field-" + (id - 4)).getAttribute("aria-checked"),
         "sound": document.getElementById("sound-field-" + (id - 3)).getAttribute("aria-checked"),

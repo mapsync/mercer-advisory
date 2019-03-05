@@ -49,7 +49,7 @@ export const BlogPostTemplate = ({
       </div>
       <div className="footer">
         <div className="d-inline-block float-right">
-          <a className="btn btn-sm btn-link tooltip tooltip-left" data-tooltip="Settings" rel="noopener noreferrer" href="https://mercersd.geosync.cloud/admin" target="_blank">
+          <a className="btn btn-sm btn-link tooltip tooltip-left" data-tooltip="Settings" rel="noopener noreferrer" href="https://mercersanitation.geosync.cloud/admin" target="_blank">
             <Icon.Settings size={16}/>
           </a>
         </div>
@@ -72,7 +72,7 @@ const BlogPost = ({ data }) => {
 
   var re = new RegExp("https://geosync.cloud/maps/c2b6e6e2-0ea0-443f-8760-04e87e039b57", "g");
   post.html = post.html.replace(re, "/map");
-  re = new RegExp("https://mercersd.geosync.cloud/map", "g");
+  re = new RegExp("https://mercersanitation.geosync.cloud/map", "g");
   post.html = post.html.replace(re, "/map");
 
   return (
