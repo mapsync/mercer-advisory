@@ -20,6 +20,7 @@ const Navbar = class extends React.Component {
           <Link to="/" className="btn btn-link" title="Logo">
             <img src="/img/small-logo.png" alt="" />
           </Link>
+          <div>&nbsp;</div>
           <Link className="btn pt-2" activeClassName="active" to="/contact">
             <Icon.Phone size={26}/>
             <div>Contact</div>
