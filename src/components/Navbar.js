@@ -9,6 +9,9 @@ const Navbar = class extends React.Component {
      <div>
        <div className="tab-menu-container show-xs">
         <div className="tab-menu btn-group btn-group-block">
+          <Link to="/" className="btn btn-link" title="Logo">
+            <img src="/img/small-logo.png" alt="" />
+          </Link>
           <Link className="btn pt-2" activeClassName="active" to="/">
             <Icon.AlertTriangle size={26}/>
             <div>Alerts</div>
@@ -17,10 +20,6 @@ const Navbar = class extends React.Component {
             <Icon.Map size={26}/>
             <div>Map</div>
           </Link>
-          <Link to="/" className="btn btn-link" title="Logo">
-            <img src="/img/small-logo.png" alt="" />
-          </Link>
-          <div>&nbsp;</div>
           <Link className="btn pt-2" activeClassName="active" to="/contact">
             <Icon.Phone size={26}/>
             <div>Contact</div>
